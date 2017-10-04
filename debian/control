@@ -1,0 +1,21 @@
+Source: golang-github-alecthomas-units
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Peter Colberg <peter@colberg.org>
+Build-Depends: debhelper (>= 10),
+               dh-golang (>= 1.10~),
+               golang-any,
+               golang-github-stretchr-testify-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/alecthomas/units
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-alecthomas-units.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-alecthomas-units.git
+XS-Go-Import-Path: github.com/alecthomas/units
+
+Package: golang-github-alecthomas-units-dev
+Architecture: all
+Depends: golang-github-stretchr-testify-dev, ${misc:Depends}, ${shlibs:Depends}
+Description: Go package for parsing byte units
+ This package provides multipliers and string conversion functions
+ for byte units with support for decimal and binary SI prefixes.

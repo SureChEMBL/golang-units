@@ -1,0 +1,20 @@
+golang-github-alecthomas-units (0.0~git20151022.0.2efee85-3) unstable; urgency=medium
+
+  * Bump debhelper compat level to 10
+  * Build-depend on golang-any instead of golang-go
+  * Drop dependency on golang-go from -dev package
+  * Update Standards-Version to 3.9.8
+
+ -- Peter Colberg <peter@colberg.org>  Sat, 19 Nov 2016 23:22:31 -0500
+
+golang-github-alecthomas-units (0.0~git20151022.0.2efee85-2) unstable; urgency=medium
+
+  * Remove Built-Using field from -dev package
+
+ -- Peter Colberg <peter@colberg.org>  Sat, 24 Sep 2016 00:08:23 -0400
+
+golang-github-alecthomas-units (0.0~git20151022.0.2efee85-1) unstable; urgency=medium
+
+  * Initial release (Closes: #817095)
+
+ -- Peter Colberg <peter@colberg.org>  Sun, 27 Mar 2016 17:28:56 +1100
