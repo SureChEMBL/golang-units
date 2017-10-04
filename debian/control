@@ -3,7 +3,7 @@ Section: devel
 Priority: extra
 Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
 Uploaders: Peter Colberg <peter@colberg.org>
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper (>= 9),
                dh-golang (>= 1.10~),
                golang-any,
                golang-github-stretchr-testify-dev
